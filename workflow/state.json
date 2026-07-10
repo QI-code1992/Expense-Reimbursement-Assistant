@@ -169,6 +169,28 @@
         "exportAutomaticallyMeansLegallyArchived": false,
         "responsibilityBoundaryMustBeDisclosed": true,
         "offboardingExportWindowRequired": true
+      },
+      "mvpDataLifecycle": {
+        "formalRecordRetentionOptionsYears": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "formalRecordDefaultRetentionYears": 5,
+        "formalRecordRetentionStartsAtTerminalState": true,
+        "activeApprovalCannotExpire": true,
+        "formalRecordDeletionRequiresTenantAdminConfirmation": true,
+        "exportBeforeFormalRecordDeletionRequired": true,
+        "abandonedDraftInactivityDays": 90,
+        "abandonedDraftDeletionNoticeDays": 7,
+        "temporaryAiOcrDataMaximumDaysAfterTask": 7,
+        "ordinaryLogRetentionYears": 1,
+        "keyAuditEvidenceFollowsFormalRecord": true,
+        "offboardingExportWindowDays": 30,
+        "backupDeletionMaximumDaysAfterProductionDeletion": 90,
+        "legalOrInvestigationHoldSupported": true,
+        "deletionMustBeTenantIsolatedAuditableIdempotentAndVerifiable": true
       }
     }
   },
