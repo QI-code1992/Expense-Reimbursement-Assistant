@@ -56,6 +56,15 @@
         "coreFieldAccuracyTarget": 0.95,
         "usableDraftRateTarget": 0.8,
         "lowConfidenceRequiresUserConfirmation": true
+      },
+      "policyKnowledgeGovernance": {
+        "mode": "CONTROLLED_TENANT_PUBLICATION",
+        "publisherRole": "TENANT_FINANCE_ADMIN",
+        "publishedOnlyRetrieval": true,
+        "versionAndEffectiveScopeRequired": true,
+        "citationRequired": true,
+        "historyRetained": true,
+        "ambiguousOrConflictingPolicyEscalatesToHuman": true
       }
     }
   },
