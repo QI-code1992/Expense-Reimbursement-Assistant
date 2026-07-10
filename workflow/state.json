@@ -159,6 +159,16 @@
         "vendorProcessingAgreementRequired": true,
         "vendorConfigurationAndCallEvidenceRequired": true,
         "futureCrossBorderProcessingRequiresChangeControlAndComplianceReview": true
+      },
+      "statutoryAccountingArchiveResponsibility": {
+        "mvpActsAsStatutoryArchiveSystem": false,
+        "tenantOwnsStatutoryArchivingResponsibility": true,
+        "statutoryThirtyYearRetentionCommitted": false,
+        "controlledExportAndHandoverRequired": true,
+        "exportIncludesSourceEvidenceAndAuditMetadata": true,
+        "exportAutomaticallyMeansLegallyArchived": false,
+        "responsibilityBoundaryMustBeDisclosed": true,
+        "offboardingExportWindowRequired": true
       }
     }
   },
