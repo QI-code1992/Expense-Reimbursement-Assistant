@@ -33,7 +33,8 @@
     "activeBranch": "agent/stage-01-requirements",
     "artifact": "01-requirements/REQUIREMENTS_DISCOVERY.md",
     "confirmedDecisions": {
-      "firstLaunchImPlatform": "FEISHU"
+      "firstLaunchImPlatform": "FEISHU",
+      "approvalExperience": "INTERNAL_ENGINE_WITH_FEISHU_ACTIONS_AND_WEB_FINANCE"
     }
   },
   "engineeringBaseline": {},
