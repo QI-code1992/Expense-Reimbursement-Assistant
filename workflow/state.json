@@ -95,6 +95,19 @@
         "restartApprovalFromFirstLevel": true,
         "retainFullAuditHistory": true,
         "withdrawalOrClosureMechanismRequired": true
+      },
+      "reimbursementTermination": {
+        "employeeCanWithdrawBeforeCompletion": true,
+        "employeeTerminalStatus": "WITHDRAWN",
+        "financeOrTenantAdminCanClose": true,
+        "adminTerminalStatus": "CLOSED",
+        "closeReasonRequired": true,
+        "terminalRecordsReadOnly": true,
+        "terminalRecordsReopenable": false,
+        "copyToNewDraftAllowed": true,
+        "newDraftGetsNewId": true,
+        "unusedInvoiceReuseAllowedWithAuditLink": true,
+        "completedReimbursementTerminationAllowed": false
       }
     }
   },
