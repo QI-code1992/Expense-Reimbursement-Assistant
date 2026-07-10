@@ -148,6 +148,17 @@
         "backgroundJobsMustBeIdempotent": true,
         "controlledRetryRequired": true,
         "duplicateDraftSubmissionOrApprovalOnRetryAllowed": false
+      },
+      "dataResidencyAndModelProcessing": {
+        "mode": "MAINLAND_CHINA_ONLY",
+        "productionDataStoredInMainlandChina": true,
+        "productionDataProcessedInMainlandChina": true,
+        "crossBorderProcessingAllowedInMvp": false,
+        "externalAiOcrMustUseMainlandChinaRegion": true,
+        "vendorTrainingOrSecondaryUseAllowed": false,
+        "vendorProcessingAgreementRequired": true,
+        "vendorConfigurationAndCallEvidenceRequired": true,
+        "futureCrossBorderProcessingRequiresChangeControlAndComplianceReview": true
       }
     }
   },
