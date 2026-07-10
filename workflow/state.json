@@ -135,6 +135,19 @@
         "humanLabeledEvaluationSetRequired": true,
         "categoryLevelReportingRequired": true,
         "reviewableCaseEvidenceRequired": true
+      },
+      "mvpNonFunctionalTargets": {
+        "concurrentActiveUsers": 100,
+        "monthlyAvailabilityMinimum": 0.995,
+        "approvedMaintenanceExcluded": true,
+        "ordinaryInteractionP95Seconds": 2,
+        "ordinaryInteractionExcludesExternalAiOcr": true,
+        "uploadAcknowledgementMaximumSeconds": 3,
+        "recognitionResultP95Seconds": 30,
+        "recognitionTimeoutUsesAsyncNotification": true,
+        "backgroundJobsMustBeIdempotent": true,
+        "controlledRetryRequired": true,
+        "duplicateDraftSubmissionOrApprovalOnRetryAllowed": false
       }
     }
   },
