@@ -208,6 +208,23 @@
         "platformOperatorMayRetryOnlyWithinAuthorizedScope": true,
         "legalHoldBlocksDeletion": true,
         "deletionReceiptRequired": true
+      },
+      "mvpExportPackage": {
+        "mode": "ASYNC_STANDARD_EVIDENCE_ZIP",
+        "humanReadablePdfIncluded": true,
+        "utf8CsvSummaryAndDetailIncluded": true,
+        "machineReadableJsonIncluded": true,
+        "originalAttachmentsIncluded": true,
+        "manifestIncluded": true,
+        "sha256PerFileRequired": true,
+        "stableSchemaAndVersionRequired": true,
+        "filterByTimeStatusAndOrganization": true,
+        "tenantIsolationAndAuthorizationRequired": true,
+        "exportAndDownloadAudited": true,
+        "expiringControlledDownloadRequired": true,
+        "retryWithinSameScopeRequired": true,
+        "openApiInMvp": false,
+        "specificAccountingSystemIntegrationInThisScope": false
       }
     }
   },
