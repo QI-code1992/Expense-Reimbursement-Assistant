@@ -73,6 +73,17 @@
         "realSampleUserAction": "UA-002",
         "privateInputPath": ".private-input/policies/",
         "gitTracked": false
+      },
+      "approvalConfiguration": {
+        "mode": "TENANT_CONFIGURABLE_TIERED_TEMPLATE",
+        "tierCountMin": 2,
+        "tierCountMax": 3,
+        "directManagerFirst": true,
+        "financeReviewAfterBusinessApproval": true,
+        "freeFormWorkflowBuilderInMvp": false,
+        "amountRangesMustBeContinuousAndNonOverlapping": true,
+        "submissionSnapshotsApprovalConfig": true,
+        "configChangesAffectNewSubmissionsOnly": true
       }
     }
   },
