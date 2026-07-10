@@ -125,6 +125,16 @@
         "formalSubmissionAllowedBeforeActivation": false,
         "labeledExamplesAllowedInDocsTestsAndPrototype": true,
         "exampleRulesCanAutoPopulateProduction": false
+      },
+      "ragAcceptanceTargets": {
+        "answerCorrectnessMinimum": 0.9,
+        "citationCorrectnessMinimum": 0.95,
+        "correctRefusalOrEscalationMinimum": 0.9,
+        "crossTenantLeakageAllowed": 0,
+        "anyCrossTenantLeakageBlocksRelease": true,
+        "humanLabeledEvaluationSetRequired": true,
+        "categoryLevelReportingRequired": true,
+        "reviewableCaseEvidenceRequired": true
       }
     }
   },
