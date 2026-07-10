@@ -108,6 +108,14 @@
         "newDraftGetsNewId": true,
         "unusedInvoiceReuseAllowedWithAuditLink": true,
         "completedReimbursementTerminationAllowed": false
+      },
+      "approvalAmountBasis": {
+        "mode": "REIMBURSEMENT_TOTAL_REQUESTED_AMOUNT",
+        "singleLineMaximumAffectsTier": false,
+        "recalculateOnEverySubmission": true,
+        "showExpectedApprovalChainBeforeConfirmation": true,
+        "amountChangeCanChangeApprovalTier": true,
+        "tierBoundaryMustBeUnique": true
       }
     }
   },
