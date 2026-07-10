@@ -42,6 +42,20 @@
         "employeesPerTenantMin": 50,
         "employeesPerTenantMax": 500,
         "documentsPerTenantPerMonthMax": 3000
+      },
+      "invoiceRecognition": {
+        "p0Formats": [
+          "JPG",
+          "PNG",
+          "PDF",
+          "XML"
+        ],
+        "p1Formats": [
+          "OFD"
+        ],
+        "coreFieldAccuracyTarget": 0.95,
+        "usableDraftRateTarget": 0.8,
+        "lowConfidenceRequiresUserConfirmation": true
       }
     }
   },
