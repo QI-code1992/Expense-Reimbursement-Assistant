@@ -27,6 +27,15 @@
       ]
     }
   },
+  "requirementsDiscovery": {
+    "version": "v0.1-working",
+    "status": "IN_PROGRESS",
+    "activeBranch": "agent/stage-01-requirements",
+    "artifact": "01-requirements/REQUIREMENTS_DISCOVERY.md",
+    "confirmedDecisions": {
+      "firstLaunchImPlatform": "FEISHU"
+    }
+  },
   "engineeringBaseline": {},
   "lastApprovedStage": {
     "id": 0,
