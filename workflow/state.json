@@ -225,6 +225,25 @@
         "retryWithinSameScopeRequired": true,
         "openApiInMvp": false,
         "specificAccountingSystemIntegrationInThisScope": false
+      },
+      "sensitiveDataProtection": {
+        "mode": "ROLE_SCOPED_MASKING_AND_CONTROLLED_FULL_EXPORT",
+        "fixedRoleAndBusinessScopeMaskingRequired": true,
+        "sensitiveFieldRevealRequiresExplicitPermission": true,
+        "sensitiveFieldRevealAudited": true,
+        "aiOcrInputDataMinimizationRequired": true,
+        "removeIrrelevantPersonalIdentifiersBeforeModelCalls": true,
+        "rawAttachmentsOrFullSensitiveValuesInLogsAllowed": false,
+        "fullExportAllowedRoles": [
+          "TENANT_FINANCE_ADMIN",
+          "TENANT_ADMIN"
+        ],
+        "stepUpAuthenticationForExportRequired": true,
+        "encryptedExportStorageRequired": true,
+        "httpsAuthenticatedExpiringDownloadRequired": true,
+        "directFeishuOrEmailAttachmentDeliveryAllowed": false,
+        "exportArtifactUsesTemporaryDataLifecycle": true,
+        "unauthorizedSensitiveExposureBlocksRelease": true
       }
     }
   },
