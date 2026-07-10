@@ -1,0 +1,81 @@
+{
+  "project": {
+    "name": "智能报销助手 Agent",
+    "deliveryMode": "FORMAL_STAGE_GATE",
+    "workspace": "/Users/qiqi/Documents/Expense Reimbursement Assistant"
+  },
+  "state": "PRODUCT_DISCOVERY",
+  "currentStage": {
+    "id": 1,
+    "name": "Requirements Definition",
+    "status": "IN_PROGRESS"
+  },
+  "updatedBy": "formal-software-delivery-workflow",
+  "updatedAt": "2026-07-10",
+  "productBaseline": {
+    "opportunity": {
+      "version": "v1.0",
+      "status": "APPROVED",
+      "gateId": "GATE-001",
+      "approvedAt": "2026-07-10",
+      "snapshotTag": "baseline/stage-00-opportunity-v1.0",
+      "snapshotCommitSha": null,
+      "artifacts": [
+        "00-opportunity/OPPORTUNITY.md",
+        "00-opportunity/COMPETITOR_ANALYSIS.md",
+        "00-opportunity/FEASIBILITY.md"
+      ]
+    }
+  },
+  "engineeringBaseline": {},
+  "lastApprovedStage": {
+    "id": 0,
+    "name": "Opportunity Validation",
+    "gateId": "GATE-001",
+    "approvedAt": "2026-07-10"
+  },
+  "pendingStageApproval": null,
+  "currentCommitSha": null,
+  "repository": {
+    "gitInitialized": true,
+    "remoteConfigured": true,
+    "remoteName": "origin",
+    "remoteUrl": "https://github.com/QI-code1992/Expense-Reimbursement-Assistant.git",
+    "remoteStatus": "INITIAL_BASELINE_PUSH_PENDING",
+    "defaultLocalBranch": "main",
+    "githubAccount": "QI-code1992",
+    "githubAuthenticationVerified": true
+  },
+  "operatingConstraints": {
+    "userDependencyProtocol": {
+      "status": "ACTIVE",
+      "source": "CR-001",
+      "rules": [
+        "Immediately notify the user when help, authorization, account or service enablement, configuration, or deployment action is required.",
+        "Provide the blocked scope, reason, exact minimal steps, expected result, validation method, and resume point.",
+        "Do not attempt workaround paths, alternative services or accounts, unnecessary plugins, or repeated retries without explicit user approval.",
+        "Track every user-owned action in workflow/USER_ACTIONS.md and continue only unaffected in-scope work."
+      ]
+    },
+    "userFirstEfficiencyProtocol": {
+      "status": "ACTIVE",
+      "source": "CR-002",
+      "rules": [
+        "Before choosing an execution path, assess whether the agent can complete it reliably with current tools, permissions, and context.",
+        "If the agent cannot complete it reliably, or the user can complete it materially faster with a few direct steps, ask the user to act first.",
+        "Do not attempt a more indirect, complex, installation-heavy, service-dependent, or token-intensive path until the user reports that the direct action is also blocked.",
+        "After the user reports a blocker, choose the smallest viable alternative and explain any new permission, cost, security, or scope impact.",
+        "Do not use this protocol to offload normal local documentation, coding, testing, verification, or already-authorized reversible work to the user."
+      ]
+    }
+  },
+  "notes": [
+    "Current workspace contained no files and was not a Git repository before workflow initialization.",
+    "Git author identity was configured and verified as QI QI <qiqi417813490@gmail.com> before the first commit.",
+    "CR-001 established a mandatory user-dependency escalation protocol for authorization, enablement, configuration, and deployment actions.",
+    "CR-002 established a user-first efficiency protocol when direct user action is materially simpler than an agent workaround.",
+    "CR-003 registered the user-provided GitHub repository as the formal origin for version management; the remote was empty when verified.",
+    "GATE-001 was explicitly approved by the user; Stage 0 v1.0 is the confirmed opportunity baseline.",
+    "OCR success criteria must be normalized in Stage 1 because 80% and 95% targets appeared in earlier discussion."
+  ]
+}
