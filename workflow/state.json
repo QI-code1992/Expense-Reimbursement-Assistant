@@ -116,6 +116,15 @@
         "showExpectedApprovalChainBeforeConfirmation": true,
         "amountChangeCanChangeApprovalTier": true,
         "tierBoundaryMustBeUnique": true
+      },
+      "approvalThresholdDefaults": {
+        "productionDefaultsProvided": false,
+        "tenantConfigurationRequiredBeforeSubmission": true,
+        "tenantExplicitActivationRequired": true,
+        "draftCreationAllowedBeforeActivation": true,
+        "formalSubmissionAllowedBeforeActivation": false,
+        "labeledExamplesAllowedInDocsTestsAndPrototype": true,
+        "exampleRulesCanAutoPopulateProduction": false
       }
     }
   },
