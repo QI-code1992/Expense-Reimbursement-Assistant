@@ -191,6 +191,23 @@
         "backupDeletionMaximumDaysAfterProductionDeletion": 90,
         "legalOrInvestigationHoldSupported": true,
         "deletionMustBeTenantIsolatedAuditableIdempotentAndVerifiable": true
+      },
+      "dataDeletionAuthorization": {
+        "mode": "CONTROLLED_SINGLE_TENANT_ADMIN",
+        "employeeCanDeleteOwnUnsubmittedDraft": true,
+        "employeeCanDeleteFormalRecord": false,
+        "tenantAdminCanDeleteExpiredFormalRecord": true,
+        "activeOrUnexpiredFormalRecordDeletionAllowed": false,
+        "exportRequiredBeforeFormalDeletion": true,
+        "deletionReasonRequired": true,
+        "stepUpAuthenticationRequired": true,
+        "explicitSecondConfirmationRequired": true,
+        "financeAdminNotificationRequired": true,
+        "financeAdminApprovalRequired": false,
+        "platformOperatorIndependentDeletionAllowed": false,
+        "platformOperatorMayRetryOnlyWithinAuthorizedScope": true,
+        "legalHoldBlocksDeletion": true,
+        "deletionReceiptRequired": true
       }
     }
   },
