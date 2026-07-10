@@ -9,7 +9,7 @@
 - 当前阶段：Stage 1 - Requirements Definition
 - 当前门禁：Stage 1 需求基线编制中；完成后提交 `GATE-002`
 - 工作流状态：见 `workflow/state.json`
-- Git：本地仓库与作者身份已配置；正式远程为 `https://github.com/QI-code1992/Expense-Reimbursement-Assistant.git`，GitHub 账号认证已验证；Stage 0 首次基线提交与推送执行中
+- Git：正式远程为 `https://github.com/QI-code1992/Expense-Reimbursement-Assistant.git`；Stage 0 v1.0 已推送，标签 `baseline/stage-00-opportunity-v1.0` 指向 `34f9b01dd8629fc9c76244f0b6e5e940493f7bb8`
 - 代码：尚未开始
 
 ## 已确认产品决策

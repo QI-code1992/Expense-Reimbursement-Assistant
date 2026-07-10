@@ -28,10 +28,10 @@
   - `00-opportunity/COMPETITOR_ANALYSIS.md` v1.0
   - `00-opportunity/FEASIBILITY.md` v1.0
 - Evidence Reviewed: 当前对话确认、Stage 0 机会结论、竞品官方资料、可行性与风险分析、MVP 边界、协作治理约束
-- Version / Commit SHA: 首次基线提交后补记
+- Version / Commit SHA: `baseline/stage-00-opportunity-v1.0` / `34f9b01dd8629fc9c76244f0b6e5e940493f7bb8`
 - Decision: 批准 Stage 0 v1.0，进入 Stage 1 - Requirements Definition
 - Conditions / Scope Exceptions:
   - Stage 1 统一 OCR 目标中 80% 与 95% 两种历史口径。
   - Stage 1 明确首发 IM 平台、数据与制度样本、安全合规、规模、集成、时间和预算约束。
   - 继续执行“RAG + 结构化规则 + 人工兜底”责任模型。
-- Notes: Stage 0 基线标签为 `baseline/stage-00-opportunity-v1.0`；创建后补记精确 Commit SHA。
+- Notes: Stage 0 基线已推送至 `origin/main`，标签 `baseline/stage-00-opportunity-v1.0` 指向精确 Commit SHA `34f9b01dd8629fc9c76244f0b6e5e940493f7bb8`。

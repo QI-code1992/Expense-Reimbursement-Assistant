@@ -19,7 +19,7 @@
       "gateId": "GATE-001",
       "approvedAt": "2026-07-10",
       "snapshotTag": "baseline/stage-00-opportunity-v1.0",
-      "snapshotCommitSha": null,
+      "snapshotCommitSha": "34f9b01dd8629fc9c76244f0b6e5e940493f7bb8",
       "artifacts": [
         "00-opportunity/OPPORTUNITY.md",
         "00-opportunity/COMPETITOR_ANALYSIS.md",
@@ -41,7 +41,8 @@
     "remoteConfigured": true,
     "remoteName": "origin",
     "remoteUrl": "https://github.com/QI-code1992/Expense-Reimbursement-Assistant.git",
-    "remoteStatus": "INITIAL_BASELINE_PUSH_PENDING",
+    "remoteStatus": "ACTIVE",
+    "lastPushedCommitSha": "34f9b01dd8629fc9c76244f0b6e5e940493f7bb8",
     "defaultLocalBranch": "main",
     "githubAccount": "QI-code1992",
     "githubAuthenticationVerified": true
@@ -76,6 +77,7 @@
     "CR-002 established a user-first efficiency protocol when direct user action is materially simpler than an agent workaround.",
     "CR-003 registered the user-provided GitHub repository as the formal origin for version management; the remote was empty when verified.",
     "GATE-001 was explicitly approved by the user; Stage 0 v1.0 is the confirmed opportunity baseline.",
+    "Stage 0 v1.0 was pushed to origin/main and tagged baseline/stage-00-opportunity-v1.0 at commit 34f9b01dd8629fc9c76244f0b6e5e940493f7bb8.",
     "OCR success criteria must be normalized in Stage 1 because 80% and 95% targets appeared in earlier discussion."
   ]
 }
