@@ -84,6 +84,17 @@
         "amountRangesMustBeContinuousAndNonOverlapping": true,
         "submissionSnapshotsApprovalConfig": true,
         "configChangesAffectNewSubmissionsOnly": true
+      },
+      "approvalReturnBehavior": {
+        "mode": "RETURN_FOR_CORRECTION_ONLY",
+        "approverTerminalRejectInMvp": false,
+        "returnReasonRequired": true,
+        "preserveReimbursementId": true,
+        "incrementVersionOnResubmission": true,
+        "employeeReconfirmationRequired": true,
+        "restartApprovalFromFirstLevel": true,
+        "retainFullAuditHistory": true,
+        "withdrawalOrClosureMechanismRequired": true
       }
     }
   },
