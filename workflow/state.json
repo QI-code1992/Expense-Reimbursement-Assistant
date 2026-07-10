@@ -65,6 +65,14 @@
         "citationRequired": true,
         "historyRetained": true,
         "ambiguousOrConflictingPolicyEscalatesToHuman": true
+      },
+      "policySampleStrategy": {
+        "mode": "HYBRID_SYNTHETIC_AND_ANONYMIZED_REAL",
+        "syntheticSampleOwner": "AGENT",
+        "realSampleMinimum": 1,
+        "realSampleUserAction": "UA-002",
+        "privateInputPath": ".private-input/policies/",
+        "gitTracked": false
       }
     }
   },

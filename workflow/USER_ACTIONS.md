@@ -38,7 +38,26 @@
 
 ## 当前待办
 
-当前无。
+### UA-002：提供至少一份脱敏真实财务制度
+
+- Status: Open
+- Raised At: 2026-07-10
+- Owner: 项目发起人（用户）
+- Required By: Stage 4 架构与实施计划批准前
+- Blocking Scope: 真实制度 RAG 验证、RAG 实施计划最终确认
+- Non-Blocking Scope: Stage 1–3 可使用明确标注的模拟制度继续需求、交互和原型工作
+- Reason: 真实制度用于验证条款切分、适用范围、冲突、引用和拒答行为；完全模拟的数据无法覆盖真实文档复杂度。
+- Minimal Action:
+  1. 选择 1–3 份具有代表性的报销或费用管理制度，优先使用 DOCX 或 PDF。
+  2. 删除或替换员工姓名、手机号、邮箱、银行账户、签名、印章、身份证明及其他不必要的个人/公司敏感信息。
+  3. 保留章节结构、费用类型、金额标准、适用范围、生效日期、例外规则和审批要求。
+  4. 将文件放入 `/Users/qiqi/Documents/Expense Reimbursement Assistant/.private-input/policies/`。
+  5. 回复“UA-002 已完成”。
+- Validation: Agent 只在本地检查文件可读性、格式和脱敏完整性；不会提交、推送或发送到外部系统。
+- Expected Result: 私密目录中至少存在一份可读、已脱敏且保留规则结构的 DOCX 或 PDF 制度文件。
+- Permission / Cost / Security Impact: `.private-input/` 已加入 `.gitignore`；文件不会进入 GitHub。不要在聊天中直接粘贴未脱敏制度或密钥。
+- Resume Point: 完成后建立真实制度 RAG 评测集，并在 Stage 4 实施计划中固化验证方法。
+- Evidence: Pending
 
 ## 已关闭待办
 
