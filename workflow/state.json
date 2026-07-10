@@ -35,7 +35,14 @@
     "confirmedDecisions": {
       "firstLaunchImPlatform": "FEISHU",
       "approvalExperience": "INTERNAL_ENGINE_WITH_FEISHU_ACTIONS_AND_WEB_FINANCE",
-      "deploymentModel": "MULTI_TENANT_SAAS"
+      "deploymentModel": "MULTI_TENANT_SAAS",
+      "pilotScale": {
+        "tenantCountMin": 1,
+        "tenantCountMax": 3,
+        "employeesPerTenantMin": 50,
+        "employeesPerTenantMax": 500,
+        "documentsPerTenantPerMonthMax": 3000
+      }
     }
   },
   "engineeringBaseline": {},
