@@ -244,6 +244,27 @@
         "directFeishuOrEmailAttachmentDeliveryAllowed": false,
         "exportArtifactUsesTemporaryDataLifecycle": true,
         "unauthorizedSensitiveExposureBlocksRelease": true
+      },
+      "mvpPaymentCompletion": {
+        "financeApprovalPassStatus": "PENDING_PAYMENT",
+        "pendingPaymentIsTerminal": false,
+        "paymentExecutedOutsideProduct": true,
+        "bankOrPaymentIntegrationInMvp": false,
+        "collectEmployeeBankAccountForPayment": false,
+        "financeManualPaymentRegistrationRequired": true,
+        "paymentRegistrationFields": [
+          "PAYMENT_DATE",
+          "PAID_AMOUNT",
+          "REMARK"
+        ],
+        "paidAmountMustEqualFinalApprovedAmount": true,
+        "partialOrInstallmentPaymentInMvp": false,
+        "explicitSecondConfirmationRequired": true,
+        "paymentRegistrationAudited": true,
+        "employeeCompletionNotificationRequired": true,
+        "idempotentRegistrationAndNotificationRequired": true,
+        "completedOnlyAfterPaymentRegistration": true,
+        "paymentCorrectionOrReversalInMvp": false
       }
     }
   },
